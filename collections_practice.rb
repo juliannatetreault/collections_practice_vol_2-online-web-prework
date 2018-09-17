@@ -22,6 +22,8 @@ def count_elements(array)
   counts.each do |name, count|
     name.each { |key, value| final_count << {key => value, :count => count} }
 end
+final_count
+end
 
 def merge_data(data)
   
