@@ -46,4 +46,3 @@ def organize_schools(schools)
     (result[value[:location]] || = []) << key
 end
 
-end
