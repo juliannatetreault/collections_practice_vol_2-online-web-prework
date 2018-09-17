@@ -25,7 +25,7 @@ end
 final_count
 end
 
-def merge_data(keys, data)
+def merge_data(key, data)
   data_one[0].values.map.with_index { |key, data| data_two[data].merge(key) }
 end
 
