@@ -18,7 +18,7 @@ end
 def count_elements(array)
   count = Hash.new(0)
   array.each { |name| count[name] += 1}
-  
+  count.
 end
 
 def merge_data(data)
