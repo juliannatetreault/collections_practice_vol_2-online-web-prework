@@ -42,5 +42,5 @@ def find_cool(hash)
 end
 
 def organize_schools(schools)
-  hash.each_with_object{()}
+  hash.each_with_object({})
 end
