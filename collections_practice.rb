@@ -19,7 +19,7 @@ def count_elements(array)
   counts = Hash.new(0)
   array.each { |name| counts[name] += 1}
   counts.each do |name, count|
-    name.each 
+    name.each { |key, value|  }
 end
 
 def merge_data(data)
