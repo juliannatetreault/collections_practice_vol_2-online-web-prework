@@ -30,7 +30,7 @@ def merge_data(key, data)
   data.each do |hashes|
     hashes.each do |name, info|
       key.each do |kv_pair|
-        merged_hashes << kv_pair(info)
+        merged_hashes << kv_pair(info) if kv_pair[0] == 
 end
 
 def find_cool(hashes)
