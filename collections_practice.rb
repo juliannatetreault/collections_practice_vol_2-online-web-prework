@@ -17,6 +17,7 @@ end
 
 def count_elements(array)
   counts = Hash.new(0)
+  
 end
 
 def merge_data(data)
