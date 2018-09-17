@@ -37,7 +37,7 @@ end
   merged_hashes
 end
 
-def find_cool(hashes)
+def find_cool(hash)
 
 end
 
