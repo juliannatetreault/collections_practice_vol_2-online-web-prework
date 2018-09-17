@@ -27,6 +27,7 @@ end
 
 def merge_data(key, data)
   merged_hashes = []
+  
 end
 
 def find_cool(hashes)
