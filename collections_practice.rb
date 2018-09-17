@@ -43,6 +43,6 @@ end
 
 def organize_schools(schools)
   schools.each_with_object({}) do |(key, value), org|
-    (result[value[:location]] ||= []) << key
+    (org[value[:location]] ||= []) << key
 end
 end
