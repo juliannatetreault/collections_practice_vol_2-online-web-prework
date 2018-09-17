@@ -30,7 +30,7 @@ def merge_data(keys, data)
   data.each do |hash|
     hash.each do |k, v|
       keys.each do |kv_pair|
-        merged_hashes << kv_pair(value) if kv_pair.values[0] == value
+        merged_hashes << kv_pair(v) if kv_pair.values[0] == value
 end
 end
 end
