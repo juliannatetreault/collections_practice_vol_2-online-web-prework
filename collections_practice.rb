@@ -27,7 +27,7 @@ end
 
 def merge_data(key, data)
   merged_hashes = []
-  keys.each { |info| data.first.collect { |key, value| if info.value}}
+  keys.each { |info| data.first.collect { |key, value| if info.value[0]}}
 end
 
 def find_cool(hashes)
