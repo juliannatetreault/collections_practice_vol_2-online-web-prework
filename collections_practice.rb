@@ -18,7 +18,7 @@ end
 def count_elements(array)
   counts = Hash.new(0)
   array.each { |name| counts[name] += 1}
-  final_count = Hash.new
+  final_count = {}
   counts.each do |name, count|
     name.each { |key, value| final_count << {key => value, :count => count} }
 end
