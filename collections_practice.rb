@@ -38,7 +38,7 @@ end
 end
 
 def find_cool(hash)
-  hash.select { || }
+  hash.select { |k| }
 end
 
 def organize_schools(schools)
