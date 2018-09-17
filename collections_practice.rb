@@ -26,7 +26,7 @@ final_count
 end
 
 def merge_data(data)
-  first_data[0].values.map.with_index
+  first_data[0].values.map.with_index { |value, | }
 end
 
 def find_cool(hashes)
