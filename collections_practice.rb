@@ -16,8 +16,8 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  counts = Hash.new(0)
-  array.each { |name| counts[name] += 1}
+  count = Hash.new(0)
+  array.each { |name| count[name] += 1}
   
 end
 
