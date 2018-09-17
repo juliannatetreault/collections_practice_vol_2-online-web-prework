@@ -25,7 +25,7 @@ end
 final_count
 end
 
-def merge_data(keys, data)
+def merge_data(data)
   
 end
 
