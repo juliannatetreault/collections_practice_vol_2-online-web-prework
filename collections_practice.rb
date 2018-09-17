@@ -33,6 +33,7 @@ def merge_data(key, data)
         merged_hashes << kv_pair(values) if kv_pair[0] == values
 end
 end
+end
   merged_hashes
 end
 
