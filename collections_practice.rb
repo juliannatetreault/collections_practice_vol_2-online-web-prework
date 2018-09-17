@@ -28,7 +28,7 @@ end
 def merge_data(keys, data)
   merged_hashes = []
   data.each do |hash|
-    hash.each do |k, v|
+    hash.each do |key, value|
       keys.each do |kv_pair|
         merged_hashes << kv_pair(v) if kv_pair.values[0] == k
 end
