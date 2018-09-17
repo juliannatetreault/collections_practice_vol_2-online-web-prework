@@ -20,7 +20,7 @@ def count_elements(array)
   array.each { |name| counts[name] += 1}
   final_count = Hash.new
   counts.each do |name, count|
-    name.each { |key, value| final_count << {key => value}  }
+    name.each { |key, value| final_count << {key => value, :count => n} }
 end
 
 def merge_data(data)
