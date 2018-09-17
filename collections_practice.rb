@@ -26,7 +26,6 @@ final_count
 end
 
 def merge_data(keys, data)
-  merged = []
   
 end
 
